@@ -8,7 +8,7 @@ venv
 
 **/*.pem
 **/*.pub
-**/__pycache__images
+**/__pycache__
 voltage_images
 **/*.jpg
 venv
