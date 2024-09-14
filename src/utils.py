@@ -65,7 +65,7 @@ def download_image(image_link, save_folder, retries=3, delay=3):
     
     create_placeholder_image(image_save_path) #Create a black placeholder image for invalid links/images
 
-def download_images(image_links, download_folder, allow_multiprocessing=False):
+def download_images(image_links, download_folder, allow_multiprocessing=True):
     if not os.path.exists(download_folder):
         os.makedirs(download_folder)
 

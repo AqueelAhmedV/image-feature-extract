@@ -1,4 +1,14 @@
 images
+train_images
+test_images
+GOT-OCR2.0
+**/*.jpg
+
+venv
+
+**/*.pem
+**/*.pub
+**/__pycache__images
 voltage_images
 **/*.jpg
 venv
